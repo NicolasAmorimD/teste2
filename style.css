@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url(images/bg-dark-mobile.jpg) no-repeat top center/cover;
+    
+}
+
+body * {
+    color: white;
+    font-family: "inter", sans-serif;
+}
+
+#conteiner {
+    width: 360px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+/*PROFILE***********/
+#profile {
+    text-align: center;
+    padding: 24px;
+}
+
+#profile img {
+    width: 112px;
+    margin-bottom: 8px;
+}
+
+#profile p {
+    line-height: 24px;
+    font-weight: 500;
+}
+/*FIM PROFILE************/
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px;
+}
+
+ul li a {
+    font-weight: 500;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+    border-radius: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transition: .2s;
+}
+
+ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+/*FIM UL*************/
+
+#links {
+    font-size: 24px;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+#links a {
+    padding: 14px;
+    display: flex;
+    align-items: center;
+    
+    border-radius: 50%;
+    transition: .2s;
+}
+
+#links a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+footer {
+    font-size: 13px;
+    text-align: center;
+    padding: 24px;
+}
